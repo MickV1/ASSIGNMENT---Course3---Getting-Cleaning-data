@@ -1,0 +1,60 @@
+Code Book
+
+Subject id :
+Number 1 to number 30 mean 30 subjects who participate in the experiment.
+
+Activity :
+Each subject performes six activities when wearing a smartphone.
+
+Walking
+Walking upstairs
+Walking downstairs
+Sitting
+Standing
+Laying
+
+Variables contain X, Y or Z. There are 554 of them.
+They represent 3-axial signals in the X, Y and Z directions.
+
+
+Variables contain "Gyroscope" or "Accelerometer".
+The smartphone embeds two sensor signals for recording the results of activities,
+accelerometer and gyroscope respectively.
+
+Variables contain Time_Acc_XYZ and Time_Gyro_XYZ.
+These time domain signals were captured at a constant rate of 50 Hz. Then they were 
+filtered using a median filter and a 3rd order low pass Butterworth filter with a corner
+frequency of 20 Hz to remove noise.
+
+Variables contain Time_BodyAcc_XYZ and Time_GravityAcc_XYZ.
+The acceleration signal was separated into body and gravity acceleration signals using 
+another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+
+Time_BodyAccJerk_XYZ and Time_BodyGyroJerk_XYZ.
+The body linear acceleration and angular velocity were derived in time to obtain Jerk 
+signals.
+
+Time_BodyAccMag, Time_GravityAccMag, Time_BodyAccJerkMag, Time_BodyGyroMag 
+and Time_BodyGyroJerkMag.
+The magnitude of these three-dimensional signals were calculated using the Euclidean 
+norm.
+
+Frequency_BodyAcc-XYZ, Frequency_BodyAccJerk-XYZ, Frequency_BodyGyro-XYZ, 
+Frequency_BodyAccJerkMag, Frequency_BodyGyroMag and 
+Frequency_BodyGyroJerkMag.
+A Fast Fourier Transform (FFT) was applied to some of these signals producing these 
+variables.
+
+Variables contain mean: Mean value.
+
+Variables contain std: Standard deviation.
+
+There were also 7 angles between vectors:
+
+555 angle(tBodyAccMean,gravity)
+556 angle(tBodyAccJerkMean),gravityMean)
+557 angle(tBodyGyroMean,gravityMean)
+558 angle(tBodyGyroJerkMean,gravityMean)
+559 angle(X,gravityMean)
+560 angle(Y,gravityMean)
+561 angle(Z,gravityMean)
