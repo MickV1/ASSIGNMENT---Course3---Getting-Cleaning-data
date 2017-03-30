@@ -100,4 +100,4 @@ secTidySet <- secTidySet[order(secTidySet$subjectId, secTidySet$activityId),]
 head(colnames(secTidySet),8)
 
 # Export the tidyData set into the text file
-write.table(secTidySet, '/Users/marinaz/Desktop/R STUDIO FILES/Getting_Cleaning_data/assignment_getandcleandatacourse/tidyData.txt',row.names=TRUE,sep='\t')
+write.table(secTidySet, '/Users/marinaz/Desktop/R STUDIO FILES/Getting_Cleaning_data/assignment_getandcleandatacourse/tidyDataF.txt',row.names=FALSE,sep='\t')
