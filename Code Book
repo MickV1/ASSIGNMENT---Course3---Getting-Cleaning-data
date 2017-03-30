@@ -6,12 +6,15 @@ Number 1 to number 30 mean 30 subjects who participate in the experiment.
 Activity :
 Each subject performes six activities when wearing a smartphone.
 
-Walking
-Walking upstairs
-Walking downstairs
-Sitting
-Standing
-Laying
+activityId                activityType
+
+      1                       WALKING
+      2                       WALKING_UPSTAIRS
+      3                       WALKING_DOWNSTAIRS
+      4                       SITTING
+      5                       STANDING
+      6                       LAYING
+
 
 Variables contain X, Y or Z. There are 554 of them.
 They represent 3-axial signals in the X, Y and Z directions.
